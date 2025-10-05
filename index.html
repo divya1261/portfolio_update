@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="avatar.png" alt="DIVYA DUBEY" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="DIVYA DUBEY">DIVYA DUBEY</h1>
+
+        <p class="title">Frontend developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">dubeydivya1261@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 7898978078</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-11-12">November 12, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>BHILAI,</address>
+              <address>INDIA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/divya-dubey-3696b9244/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/divya1261" class="social-link">
+              <ion-icon name="logo-Github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+          <h3 style="color: white;">Aspiring Software Developer with skills in Data analytics and Front-End Development</h3>
+        </header>
+
+        <section class="about-text">
+          <p>
+          <h3>Hi, I'm DIVYA,</h3> a student from VIT Bhopal currently pursuing a degree in Computer Science Engineering.I am looking for a job where I can apply my skills and continue to develop new ones. I enjoy transforming complex problems into simple, beautiful, and intuitive designs.
+          </p>
+
+          <p>
+          I am passionate for technology and a strong interest in coding and software development. Alongside my academic pursuits, I love exploring new places and embracing the thrill of discovering diverse cultures and landscapes. This blend of technical curiosity and love for adventure fuels my drive to innovate and broaden my horizons both professionally and personally. I am excited about the endless possibilities in the world of software engineering and look forward to contributing to groundbreaking projects in the future.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="ChatGPT Image Oct 2, 2025, 11_37_00 PM.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software development</h4>
+
+                <p class="service-item-text">
+                  Proficiency in C++.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="06a72ecf-fda2-45a9-90b8-1c06979b7708.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                Quality development of sites.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="ChatGPT Image Oct 2, 2025, 11_39_27 PM.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analytics</h4>
+
+                <p class="service-item-text">
+                Examining raw data to uncover patterns, trends, and insights that support better decision-making.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I love capturing moments.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+</article>
+<!--USELESS BUT CANNOT REMOVE-->
+        <div>
+          <div class="overlay" data-overlay></div>
+          <section>
+            <button class="modal-close-btn" data-modal-close-btn></button>
+          </section>
+        </div>
+
+      
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VIT BHOPAL University</h4>
+
+              <span>2022-2026</span>
+
+              <p class="timeline-text">
+                I have successfully completed my B.Tech in CSE (Core) from VIT Bhopal with a CGPA of 8.31, while actively contributing to several clubs that helped me enhance my technical expertise, leadership, and teamwork skills.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KRISHNA PUBLIS SCHOOL,N.N</h4>
+
+              <span>2021-2022</span>
+
+              <p class="timeline-text">
+              CBSE BORAD :PCM </p>
+              <p class="timeline-text">
+75.8%
+              </p>
+              
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KRISHNA PUBLIS SCHOOL,N.N</h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+                10th std | Percentage: 87.4% </p>
+                <p class="timeline-text">
+House Prefect – Took on leadership responsibilities during school, overseeing discipline and team coordination.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BHILAI STEEL PLANT (VT WED DEV)</h4>
+
+              <span>DEC ,2024- JAN ,2025</span>
+
+              <p class="timeline-text">
+              HTML, CSS, JS, and Django-Spearheaded the development of a digital Room Booking System for HRD, replacing manual
+entries; this reduced administrative overhead by 6 hours per week, and improved employee satisfaction scores by 15%.</p><p class="timeline-text">
+Collected client requirements via 20+ workshops and feedback, and created reports to support project planning.</p>
+<p class="timeline-text"> Gained valuable insights into the industrial plant's infrastructure and operational workflows.</p>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Front end devlopment</h5>
+                <data value="80">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Ms Excel</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Power BI</h5>
+                <data value="90">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+   
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Captures</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Animation</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Captures</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Animation</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+<!---->
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="Screenshot 2025-10-02 165801.png" alt="" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">OR Generator</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+             <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="Screenshot 2025-10-02 164841.png" alt="" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Water Glass</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+             <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="Screenshot 2025-10-02 171707.png" alt="" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Weather app</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+             
+            <li class="project-item  active" data-filter-item data-category="captures">
+              <a href="IMG-20240621-WA0001.jpg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="IMG-20240621-WA0001.jpg" alt="1" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Good food</h3>
+
+                <p class="project-category">Captures</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="captures">
+              <a href="IMG-20240621-WA0002.jpg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="IMG-20240621-WA0002.jpg" alt="2" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Treasure</h3>
+
+                <p class="project-category">Captures</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="captures">
+              <a href="IMG-20240621-WA0003.jpg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="IMG-20240621-WA0003.jpg" alt="3" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lights camera</h3>
+
+                <p class="project-category">Captures</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="captures">
+              <a href="IMG-20240621-WA0004.jpg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="IMG-20240621-WA0004.jpg" alt="4" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">4</h3>
+
+                <p class="project-category">Captures</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="captures">
+              <a href="IMG-20240621-WA0005.jpg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="IMG-20240621-WA0005.jpg" alt="5" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Architecture</h3>
+
+                <p class="project-category">Captures</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="captures">
+              <a href="IMG-20240621-WA0007.jpg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="IMG-20240621-WA0007.jpg" alt="" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">The Rajwada</h3>
+
+                <p class="project-category">Captures</p>
+
+              </a>
+            </li>
+<li class="project-item  active" data-filter-item data-category="animation">
+              <a href="canva.mp4">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="image.png" alt="animation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Travel</h3>
+
+                <p class="project-category">Animation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="animation">
+              <a href="canva.mp4">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="Screenshot 2025-10-02 234216.png" alt="animation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Thar</h3>
+
+                <p class="project-category">Animation</p>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - certificate
+ -->
+<article class="certifications" data-page="certifications">
+
+  <header>
+    <h2 class="h2 article-title">Certifications</h2>
+  </header>
+
+  <section class="certification-posts">
+
+    <ul class="certification-posts-list">
+    <!--1st certificate-->
+      <li class="certification-post-item">
+         <a href="certification-1.jpg">
+        
+          <figure class="certification-banner-box">
+            <img src="certification-1.jpg" alt="CYBER SECURITY ANALYST" loading="lazy">
+          </figure>
+
+          <div class="certification-content">
+            <div class="certification-meta">
+              <p class="certification-category">CYBER</p>
+              <span class="dot"></span>
+              <time datetime="2025-04-08">APRIL 08, 2025</time>
+            </div>
+
+            <h4 class="h4 certification-item-title">CYBER SECURITY ANALYST</h4>
+
+            <!--<p class="certification-text">
+              Brief description of the certification and its relevance.
+            </p>-->
+          </div>
+          </a>
+      </li>
+
+<!--2 certificate-->
+      <li class="certification-post-item">
+        <a href="Screenshot 2025-10-02 225636.png">
+          <figure class="certification-banner-box">
+            <img src="Screenshot 2025-10-02 225636.png" alt="Certification Title 2" loading="lazy">
+          </figure>
+
+          <div class="certification-content">
+            <div class="certification-meta">
+              <p class="certification-category">Salesforce</p>
+              <span class="dot"></span>
+              <time datetime="2022-03-15">April 15, 2025</time>
+            </div>
+
+            <h4 class="h4 certification-item-title">Salesforce developer</h4>
+
+            <!--<p class="certification-text">
+              Brief description of the certification and its relevance.
+            </p>-->
+          </div>
+        </a>
+      </li>
+<!--3 certificate-->
+      <li class="certification-post-item">
+        <a href="Screenshot 2025-10-02 231519.png">
+          <figure class="certification-banner-box">
+            <img src="Screenshot 2025-10-02 231519.png" alt="Certification Title 3" loading="lazy">
+          </figure>
+
+          <div class="certification-content">
+            <div class="certification-meta">
+              <p class="certification-category">Marketing Analytics</p>
+              <span class="dot"></span>
+              <time datetime="2022-04-10">May, 2025</time>
+            </div>
+
+            <h4 class="h4 certification-item-title">Marketing Analytics</h4>
+
+            <!--<p class="certification-text">
+              Brief description of the certification and its relevance.
+            </p>-->
+          </div>
+        </a>
+      </li>
+<!--4 certificate-->
+     <li class="certification-post-item">
+        <a href="Screenshot 2025-10-02 230815.png">
+          <figure class="certification-banner-box">
+            <img src="Screenshot 2025-10-02 230815.png" alt="Certification Title 4" loading="lazy">
+          </figure>
+
+          <div class="certification-content">
+            <div class="certification-meta">
+              <p class="certification-category">Data Visualization</p>
+              <span class="dot"></span>
+              <time datetime="2022-04-10">Feb, 2025</time>
+            </div>
+
+            <h4 class="h4 certification-item-title">Data Visualization-TATA FORAGE</h4>
+          </div>
+        </a>
+      </li>
+
+<!--5 certificate - FIXED: Added closing </a> tag-->
+      <li class="certification-post-item">
+        <a href="Screenshot 2025-10-02 231459.png">
+          <figure class="certification-banner-box">
+            <img src="Screenshot 2025-10-02 231459.png" alt="Certification Title 5" loading="lazy">
+          </figure>
+
+          <div class="certification-content">
+            <div class="certification-meta">
+              <p class="certification-category">CLOUD COMPUTING</p>
+              <span class="dot"></span>
+              <time datetime="2022-04-10">May, 2024</time>
+            </div>
+
+            <h4 class="h4 certification-item-title">CLOUD COMPUTING</h4>
+          </div>
+        </a>
+      </li>
+      <!-- Add more certification items as needed -->
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+<!--
+        - #CONTACT
+      -->
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formsubmit.co/dubeydivya1261@gmail.com" method="POST" class="form" data-form>
+            <!-- FormSubmit Configuration -->
+            <input type="hidden" name="_subject" value="New Contact Form Submission">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="_honey" style="display:none">
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
